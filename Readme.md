@@ -9,14 +9,14 @@ A reinforcement learning project for training agents to navigate the continuous 
 ### Without NPC Cars (v1.0)
 > Clean lap — agent drives solo, no obstacles.
 
-https://github.com/Droid-DevX/AutonomousDriving/assets/demo/before_npc.mp4
+https://github.com/user-attachments/assets/1fb02adc-3026-4690-a16d-4d1244dcb0f5
 
 ---
 
 ### With NPC Cars (v2.0)
 > Agent navigates around 3 NPC obstacle cars. Labels switch live between **NPC** and **OVERTAKEN** based on real-time track position.
 
-https://github.com/Droid-DevX/AutonomousDriving/assets/demo/after_npc.mp4
+https://github.com/user-attachments/assets/7cac56eb-556e-4d83-a4d1-fa0142be31c4
 
 ---
 
