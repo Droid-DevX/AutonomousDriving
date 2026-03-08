@@ -251,27 +251,6 @@ Each NPC follows the track centre-line tile-by-tile at a fixed speed (`0.05 tile
 
 ---
 
-## Training Details
-
-| Parameter | v0.2 (Before) | v1.0 (After) |
-|---|---|---|
-| Algorithm | PPO | PPO |
-| Policy | CnnPolicy | CnnPolicy |
-| Total Timesteps | 250,000 | 1,000,000 + |
-| Frame Stacking | None | 4 frames |
-| n_steps | 2048 | 512 |
-| batch_size | 64 | 128 |
-| n_epochs | 10 | 4 |
-| Learning Rate | `3e-4` | Linear `2.5e-4 → 0` |
-| Clip Range | `0.2` | Linear `0.2 → 0` |
-| ent_coef | 0.005 | 0.01 |
-| max_grad_norm | default | 0.5 |
-| Device | CUDA (GPU) | CUDA (GPU) |
-| Environment | CarRacing-v3 | CarRacing-v3 |
-| Action Space | Box(3,) continuous | Box(3,) continuous |
-| Observation Space | 96×96×3 RGB | 96×96×12 (4 stacked) |
-
----
 
 ## What Changed and Why
 
